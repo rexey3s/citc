@@ -1,0 +1,74 @@
+/* CSS Document */
+
+@import 'normalize.css';
+@import 'base.css';
+@import 'header.css';
+@import 'login.css';
+
+#user-forms-container {
+	width:1000px;
+	padding:20px;
+	border:1px dashed #eee;
+	margin:auto;
+	margin-top:60px;
+}
+#user-forms-container h3 {
+	border-bottom:1px dashed #cecece;
+	color:#888;
+	padding-bottom:10px;
+}
+#user-forms-container input[type="text"]{
+	width:800px;
+	height:30px;
+	line-height:30px;
+	padding:8px;
+	border:1px solid #eee;
+	border-radius:6px;
+
+}
+#user-forms-container input[type="text"]:focus{
+	outline:none;
+	box-shadow:0 0 5px #555;
+}
+#user-forms-container .bt-holder{
+	width:250px;
+	margin:auto;
+}
+#user-forms-container button{
+	width:250px;
+	height:70px;
+	line-height:65px;
+	border:1px solid #eee;
+	background:#fff;
+	color:#444;
+	margin:auto;
+	margin-top:40px;
+	font-size:18px;
+
+	-webkit-transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-o-transition:all 0.2s ease-in-out;
+	transition:all 0.2s ease-in-out;
+}
+
+#user-forms-container button:hover{
+	background:#12ada1;
+	color:#fff;
+}
+
+#user-forms-container #login-form{
+	width:450px;
+	margin:auto;
+	text-align:center;
+}
+#user-forms-container #login-form table{
+	width:450px;
+}
+#user-forms-container #login-form table tr td{
+	padding:10px;
+}#user-forms-container #login-form input{
+border-radius: 4px;
+width:300px;
+border: 1px solid #eee;
+padding: 5px;
+}

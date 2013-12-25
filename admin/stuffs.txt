@@ -1,0 +1,5 @@
+﻿Những phần thêm vào:
++ 1 file xml để chuyển từ tiêu đề sang controller và action
++ Xử lý lấy controller và action dựa trên tiêu đề (chẳng hạn /blogs -> controller "blog")
++ Thêm vào addition variable (VD: /blog/view/images/mygallery -> addition_vars = ["images","mygallery"])
++ Them 1 trang để quản lý tiêu đề vs tên của controller và action

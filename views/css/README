@@ -1,0 +1,8 @@
+//created by toan 10:25 11/11/2013
+
+base.css    :   là file dùng chung(cơ sở), có các class cung cho mọi trang, //sau này mình sẽ add font chung cho web nữa
+            nên khi tạo css mới các bạn nên @import nó vào
+
+layout.css  :   là file layout chính khi mình đã login nó định dạng các khung div chung
+            xem file "so-do-div.png"  trong thư mục Design/layout để hiểu rõ
+            -> làm bất cứ trang nào (trừ trang login) đều cần @import nó vào.

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datas>
+	<controllers>
+		<a>
+			<title>trangdoanhnghiep</title>
+			<controller>blog</controller>
+		</a>
+		<a>
+			<title>phong-trung-bay</title>
+			<controller>gallery</controller>
+		</a>
+	<a><controller>tantanbambobo</controller><title>tnatan</title></a></controllers>
+	<actions>
+		<a>
+			<controller>blog</controller>
+			<title>xem</title>
+			<action>view</action>
+		</a>
+		<a>
+			<controller>gallery</controller>
+			<title>thinh-hanh</title>
+			<action>popular</action>
+		</a>
+	<a><action>sdfsd</action><controller>gallery</controller><title>sdf</title></a>
+	</actions>
+</datas>

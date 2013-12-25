@@ -1,0 +1,39 @@
+<?php 
+	class articleHandler {
+		private $db;
+		
+		public function __construct()
+		{
+			
+		}
+		
+		private function getDB()
+		{
+			$this->db = new db();
+		}
+		
+		/*
+			get the intro article
+		*/
+		public  function addArticle()
+		{
+			$this->getDB();
+			
+			$title = $_POST['title'];
+			$content = $_POST['content'];
+			$date = date("d-m-y h:m:i");
+			$addr = $_POST['addr'];
+			$city = $_POST['city'];
+
+			$lat = $_POST['lat'];
+			$lng = $_POST['lng'];
+
+			$result = $this->db->put_data("INSERT INTO article (title,content,date,addr,city,lat,lng) VALUES (?,?,?,?,?,?,?)",array($title,$content,$date,$addr,$city,$lat,$lng));
+			if ($result)
+				return true;
+			else
+				return false;
+
+		}
+	}
+?>
